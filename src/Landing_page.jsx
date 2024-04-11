@@ -20,7 +20,7 @@ function Landing_page() {
   return (
     <div> 
         <LandingContext.Provider value={{homeRef, blogRef, contactRef, aboutRef}}>
-            <First_section />
+            {/* <First_section /> */}
             <Second_section />
             <Third_section />
             <Fourth_section />
