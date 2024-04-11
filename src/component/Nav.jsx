@@ -32,7 +32,7 @@ function Nav() {
     
         <div className='landing_Nav py-3 d-flex justify-content-center'>
             <div className="cont d-flex justify-content-between align-items-center">
-                <img src="/assets/Davkart Logo full.png" alt="" />
+                <img src="/assets/Davkart Logo full.png" alt="boss" />
                 <div className='list'>
                     <ul>
                         <li onClick={()=> homeRef.current.scrollIntoView({behavior: 'smooth'})} className='me-5'>Home

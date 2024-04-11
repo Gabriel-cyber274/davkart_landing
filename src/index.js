@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <App />
-  </HashRouter>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
